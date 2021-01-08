@@ -84,7 +84,7 @@ class Upload extends AsyncTask<Void, Void, Void> {
 
     @Override
     protected Void doInBackground(Void... params) {
-        String url_path = "http://oneroofit.digitalsofthub.online/pdf.php";
+        String url_path = " YOUR PATH";
         HttpURLConnection conn = null;
 
         int maxBufferSize = 1024;
